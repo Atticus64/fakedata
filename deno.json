@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "zod": "https://deno.land/x/zod@v3.23.8/mod.ts",
+    "faker": "npm:@faker-js/faker"
+  }
+}
